@@ -1,0 +1,101 @@
+[
+  {
+    "name": "__main__",
+    "unique_id": "29c11f27eb2b8e25a15cfb3d5270f912|44696f9314de2882f646c85792c8918c",
+    "children": [
+      {
+        "name": "zend_compile_file",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[0]"
+      },
+      {
+        "name": "chr",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[1,2,3,4,6,8,12,13,15,16,17,20,21,23,25,26,28,29]"
+      },
+      {
+        "name": "base64_decode",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[5,7,10,11,22,24,27,30]"
+      },
+      {
+        "name": "str_rot13",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[9,14]"
+      },
+      {
+        "name": "create_function",
+        "caller": "__main__",
+        "children": [
+          {
+            "name": "zend_compile_string",
+            "caller": "create_function",
+            "children": [],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[19]"
+          }
+        ],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[18]"
+      },
+      {
+        "name": "__lambda_func",
+        "caller": "__main__",
+        "children": [
+          {
+            "name": "eval",
+            "caller": "__lambda_func",
+            "children": [
+              {
+                "name": "zend_compile_string",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": true,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[33]"
+              },
+              {
+                "name": "zend_fetch_r_post",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": false,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[34]"
+              }
+            ],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[32]"
+          }
+        ],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[31]"
+      }
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "name": "__main__",
+    "unique_id": "024ee310a0b592972603db1400712772|60a94f9d8237c22c39b936c83ab39fbb",
+    "children": [
+      {
+        "name": "zend_compile_file",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[0]"
+      },
+      {
+        "name": "base64_decode",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[1,2,3,6,7,8,10]"
+      },
+      {
+        "name": "create_function",
+        "caller": "__main__",
+        "children": [
+          {
+            "name": "zend_compile_string",
+            "caller": "create_function",
+            "children": [],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[5,18]"
+          }
+        ],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[4]"
+      },
+      {
+        "name": "ob_start",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[9]"
+      },
+      {
+        "name": "gzuncompress",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[11]"
+      },
+      {
+        "name": "__lambda_func",
+        "caller": "__main__",
+        "children": [
+          {
+            "name": "eval",
+            "caller": "__lambda_func",
+            "children": [
+              {
+                "name": "zend_compile_string",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": true,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[14,22]"
+              },
+              {
+                "name": "base64_decode",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": true,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[15,16,19,24,26,28,30]"
+              },
+              {
+                "name": "create_function",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": true,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[17]"
+              },
+              {
+                "name": "__lambda_func",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": false,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[20]"
+              },
+              {
+                "name": "zend_fetch_r_post",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": false,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[23,25,27,29]"
+              },
+              {
+                "name": "mail",
+                "caller": "eval",
+                "children": [],
+                "is_sensitive": false,
+                "is_common": true,
+                "call_num": 1,
+                "all_index": "[31]"
+              }
+            ],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[13,21]"
+          }
+        ],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[12]"
+      },
+      {
+        "name": "ob_get_contents",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[32]"
+      },
+      {
+        "name": "ob_end_clean",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[33]"
+      }
+    ]
+  }
+]

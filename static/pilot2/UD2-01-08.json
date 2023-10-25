@@ -1,0 +1,72 @@
+[
+  {
+    "name": "__main__",
+    "unique_id": "64c45bcbe96bd908d3829737cb1e7b13|68741a41efddc9033b3d508f2756dd84",
+    "children": [
+      {
+        "name": "zend_compile_file",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[0]"
+      },
+      {
+        "name": "defined",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[1,4,7,10,13,16,19,22,25]"
+      },
+      {
+        "name": "define",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[2,5,8,11,14,17,20,23,26]"
+      },
+      {
+        "name": "explode",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[3,6,9,12,15,18,21,24]"
+      },
+      {
+        "name": "strrev",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[27]"
+      },
+      {
+        "name": "eval",
+        "caller": "__main__",
+        "children": [
+          {
+            "name": "zend_compile_string",
+            "caller": "eval",
+            "children": [],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[29]"
+          }
+        ],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[28]"
+      }
+    ]
+  }
+]
