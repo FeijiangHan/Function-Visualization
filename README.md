@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Graph Visualization
 
 ![FCD08](https://gitee.com/han-feijiang/img-store/raw/master/2023/FCD08.png)
@@ -19,9 +18,11 @@
 
 # Hierarchy Tree
 
-![FCD2-01-01](D:/0-GitHubProject/Function-Visualization/visualization%20methods/visualization%20samples/hierarchyTree/FCD2-01-01.png)
+![](https://github.com/FeijiangHan/Function-Visualization/blob/main/visualization%20methods/visualization%20samples/hierarchyTree/FCD2-01-01.png)
 
-![FCD06](D:/0-GitHubProject/Function-Visualization/visualization%20methods/visualization%20samples/hierarchyTree/FCD06.png)
+![FCD06](https://github.com/FeijiangHan/Function-Visualization/blob/main/visualization%20methods/visualization%20samples/hierarchyTree/FCD06.png)
+
+
 
 # Icicle Graph
 
@@ -50,17 +51,18 @@
 ![FCD2-01-01](D:/0-GitHubProject/Function-Visualization/visualization%20methods/visualization%20samples/timeTree/FCD2-01-01.png)
 
 ![FCD06](D:/0-GitHubProject/Function-Visualization/visualization%20methods/visualization%20samples/timeTree/FCD06.png)
-=======
-# Overview
+
+
+
+# Platform Overview
+
 **Malware Family Visualization and Detection System, visit:** https://github.com/FeijiangHan/Malware-Family-Vis-Platform/
- 
+
 <img src="https://feijiang.info/details/markdown/assets/image-20231111214519387.png">
 <img src="https://feijiang.info/details/markdown/img/image-20231011185448410.png">
 <img src="https://feijiang.info/details/markdown/img/image-20231011192344897.png">
 
-# test
 
-test system
 
 ## Build Setup
 
@@ -88,4 +90,3 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
->>>>>>> 45a2f11c71eee8ee6bda6b0bfe185feb639ec080
